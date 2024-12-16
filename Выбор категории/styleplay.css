@@ -1,0 +1,92 @@
+*{
+    margin: 0 auto;
+    font-family:'Courier New', Courier, monospace;
+}
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./фон.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.header {
+    width: 100%;
+    margin: 25px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.tom{
+    margin: 0;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(69, 143, 255);
+}
+.back {
+    margin: 0 25px 0 0;
+    grid-column: 3;
+    display: flex;
+    justify-content: end;
+}
+.main {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.select {
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background-color: #7700ff;
+}
+.text {
+    padding: 20px 0px;
+    margin: 0;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(0, 204, 255);
+    text-decoration: wavy;
+    border: rgb(187, 0, 204) outset 3px;
+}
+.text:hover {
+    background-color: #4b1380ad;
+    color: rgb(217, 255, 0);
+    transition: 0.3s;
+}
+.name {
+    padding: 20px 0px;
+    margin: 0;
+    border-radius: 50px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    background-color: rgb(0, 204, 255);
+    text-decoration: wavy;
+    border:  rgb(187, 0, 204) outset 3px;
+    font-weight: bold;
+    border: 0;
+}
+.back-img {
+    margin: 0;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.back-img:hover {
+    border:  blueviolet solid 3px;
+    background-color: #5d00c7;
+    
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Naruto.css">
+    <title>Наруто битва</title>
+</head>
+<body>
+    <div class="popup show">
+        <div class="header">
+            <div class="user-health health"></div>
+            <p class="name ">Naruto</p>
+            <div class="opponent-health health"></div>
+            <a class="back" href="/Выбор категории/play.html"><img class="back-img" src="/back.png" alt=""></a>
+        </div>
+    
+        <div class="battle">
+            <div class="user section">
+                <select class="user-perc pers">
+                    <option class="user-perc-label pers-label">Выберите персонажа</option>
+                        <option class="user-pers-opt perc-opt">Naruto</option>
+                        <option class="user-pers-opt perc-opt">Kakashi</option>
+                        <option class="user-pers-opt perc-opt">Hashirama</option>
+                </select>
+                <img class="user-img image"  alt="">
+            </div>
+            <div class="gif-battle">
+                <img class="img-battle"  alt="">
+            </div>
+            <div class="opponent section">
+                <select class="opponent-perc pers">
+                    <option class="opponent-perc-label pers-label">Выберите персонажа</option>
+                        <option class="opponent-pers-opt perc-opt">Saske</option>
+                        <option class="opponent-pers-opt perc-opt">Obito</option>
+                        <option class="opponent-pers-opt perc-opt">Madara</option>
+                </select>
+                <img class="opponent-img image"  alt="">
+            </div>
+        </div>
+    
+        <div class="footer">
+            <div class="block-text">
+                <p class="text user-damage">Урон:</p>
+                <p class="text user-armor">Броня:</p>
+                <p class="text user-endurance">Выносливость:</p>
+                <p class="text user-trick">Хитрость:</p>
+                <p class="text user-dexterity">Ловкость:</p>
+            </div>
+            <div class="btns">
+                <button class="btn play">Начать бой</button>
+                <button class="btn hit hide">Удар</button>
+                <button class="btn info-perc hide">Сведение о битве</button>
+            </div>
+            <div class="block-text">
+                <p class="text opponent-damage">Урон:</p>
+                <p class="text opponent-armor">Броня:</p>
+                <p class="text opponent-endurance">Выносливость:</p>
+                <p class="text opponent-trick">Хитрость:</p>
+                <p class="text opponent-dexterity">Ловкость:</p>
+            </div>
+        </div>
+    </div>
+    <div class="info hide">
+        <div class="info-value">
+            <p class="info-result">Победил Мадара</p>
+            <div class="perc-info-value">
+                <div class="user-info-container">
+                    <p class="user-info value-user">Игрок 1</p>
+                </div>
+                <div class="opponent-info-container">
+                    <p class="opponent-info value-opponent">Игрок 2</p>
+                </div>
+            </div>
+            <div class="button-info-div">
+                <button class="info-btn">Back</button>
+            </div>
+        </div>
+    </div>
+    <div class="restart hide">
+        <a class="restart-link" href="./Naruto.html">Обновить бой</a>
+    </div>
+    <script src="./Naruto.js"></script>
+</body>
+</html>
